@@ -1,0 +1,21 @@
+{
+  "name": "pablo/php-unit-boilerplate",
+  "description": "A blank Composer project that creates a basic class and a Unit Test for it.",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Project\\": "src/",
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "phpunit/phpunit": "^7.0"
+  },
+  "authors": [
+    {
+      "name": "Pablo Nunez",
+      "email": "fixwah@gmail.com"
+    }
+  ]
+}
